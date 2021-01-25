@@ -73,14 +73,14 @@
     "id": 11,
     "firstName": "Chris",
     "lastName": "Nakamura",
-    "role": "Senior Engineer",
-    "department": "Engineering"
+    "role": "Accountant",
+    "department": "Finance"
   },
   {
     "id": 12,
     "firstName": "Ryder",
     "lastName": "Hsiao",
-    "role": "Software Engineer",
-    "department": "Engineering"
+    "role": "Accountant Manager",
+    "department": "Finance"
   }
 ]
