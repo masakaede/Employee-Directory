@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "firstName": "Troy",
+    "lastName": "Grigg",
+    "role": "Sales Lead",
+    "department": "Sales"
+  },
+  {
+    "id": 2,
+    "firstName": "Raymond",
+    "lastName": "Brown",
+    "role": "Salesperson",
+    "department": "Sales"
+  },
+  {
+    "id": 3,
+    "firstName": "Stella",
+    "lastName": "Smith",
+    "role": "Lead Engineer",
+    "department": "Engineering"
+  },
+  {
+    "id": 4,
+    "firstName": "Kai",
+    "lastName": "Wang",
+    "role": "Software Engineer",
+    "department": "Engineering"
+  },
+  {
+    "id": 5,
+    "firstName": "Greg",
+    "lastName": "Shaw",
+    "role": "Software Engineer",
+    "department": "Engineering"
+  },
+  {
+    "id": 6,
+    "firstName": "Lubi",
+    "lastName": "Watson",
+    "role": "Software Engineer",
+    "department": "Engineering"
+  },
+  {
+    "id": 7,
+    "firstName": "Billy",
+    "lastName": "Gates",
+    "role": "Senior Engineer",
+    "department": "Engineering"
+  },
+  {
+    "id": 8,
+    "firstName": "Riley",
+    "lastName": "Cresswell",
+    "role": "Salesperson",
+    "department": "Sales"
+  },
+  {
+    "id": 9,
+    "firstName": "Libby",
+    "lastName": "Chang",
+    "role": "Software Engineer",
+    "department": "Engineering"
+  },
+  {
+    "id": 10,
+    "firstName": "Jerry",
+    "lastName": "Ito",
+    "role": "Salesperson",
+    "department": "Sales"
+  },
+  {
+    "id": 11,
+    "firstName": "Chris",
+    "lastName": "Nakamura",
+    "role": "Senior Engineer",
+    "department": "Engineering"
+  },
+  {
+    "id": 12,
+    "firstName": "Ryder",
+    "lastName": "Hsiao",
+    "role": "Software Engineer",
+    "department": "Engineering"
+  }
+]
