@@ -1,7 +1,11 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import employees from "../../employees.json";
 import Navbar from "../Navbar";
 import Card from "../Card";
+import "./style.css"
+
+
+
 
 class Container extends Component {
 
@@ -18,21 +22,6 @@ class Container extends Component {
     }
 
     render() {
-        const styleInfo = {
-            paddingRight: '10px',
-
-        }
-
-        const elementStyle = {
-            border: 'solid',
-            borderRadius: '10px',
-            position: 'relative',
-            left: '10px',
-            height: '30px',
-            width: '200px',
-            marginTop: '5px',
-            marginBottom: '10px'
-        }
 
         const employeeDetail = employees.filter((data) => {
             if (this.state.search == null) {
@@ -42,16 +31,12 @@ class Container extends Component {
             }
         }).map(data => {
             return (
-                <div>
-                    <ul>
-                        <li style={{ position: 'relative', left: '10px' }}>
-                            <span style={styleInfo}>{data.firstName}</span>
-                            <span style={styleInfo}>{data.lastName}</span>
-                            <span style={styleInfo}>{data.role}</span>
-                            <span style={styleInfo}>{data.department}</span>
-                        </li>
-                    </ul>
-                </div>
+                <tr>
+                    <td>{data.firstName}</td>
+                    <td>{data.lastName}</td>
+                    <td>{data.role}</td>
+                    <td>{data.department}</td>
+                </tr>
             )
         })
 
@@ -61,7 +46,17 @@ class Container extends Component {
                     <input className="form-control mr-sm-2" type="text" placeholder="Enter department name" onChange={(e) => this.searchSpace(e)} />
                 </Navbar>
                 <Card>
-                    {employeeDetail};
+                    <table id="table">
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Role</th>
+                            <th>Department</th>
+                        </tr>
+                        <tbody id="employees">
+                            {employeeDetail}
+                        </tbody>
+                    </table>
                 </Card>
             </div>
         )
