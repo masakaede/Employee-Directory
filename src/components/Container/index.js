@@ -5,8 +5,6 @@ import Card from "../Card";
 import "./style.css"
 
 
-
-
 class Container extends Component {
 
     constructor() {
@@ -62,6 +60,5 @@ class Container extends Component {
         )
     }
 };
-
 
 export default Container
