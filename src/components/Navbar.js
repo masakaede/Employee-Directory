@@ -6,16 +6,6 @@ function Navbar(props) {
       <a className="navbar-brand" href="#">
         Employee-Directory
       </a>
-      <button
-        className="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon" />
-      </button>
 
       <form className="form-inline my-2 my-lg-0">
         {props.children}
